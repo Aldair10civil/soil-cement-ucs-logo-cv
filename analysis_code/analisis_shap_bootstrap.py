@@ -149,10 +149,18 @@ plt.savefig(os.path.join(OUT_DIR, "fig_shap_bar_LR.png"), dpi=300, facecolor='wh
 plt.close()
 
 # fig_shap_beeswarm_LR.png
-plt.figure()
+# Reviewer feedback on an earlier round flagged that the colour bar on the
+# right of the SHAP beeswarm could be mistaken for a secondary y-axis.
+# Widening the figure to give the bar its own clear margin and relabelling
+# it explicitly (instead of relying on SHAP's small default "Feature value"
+# text) removes that ambiguity; the same fix is applied to the Random
+# Forest beeswarm below.
+fig = plt.figure(figsize=(8, 5))
 shap.summary_plot(shap_values_lr_arr, X_df, plot_type="dot",
                    feature_names=FEATURE_NAMES_EN, show=False)
 plt.title("SHAP Beeswarm \u2014 Linear Regression")
+cb = plt.gcf().axes[-1]
+cb.set_ylabel("Feature value (low \u2192 high)", fontsize=10, labelpad=6)
 plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, "fig_shap_beeswarm_LR.png"), dpi=300, facecolor='white')
 plt.close()
@@ -218,10 +226,12 @@ plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, "fig_shap_bar_RF.png"), dpi=300, facecolor='white')
 plt.close()
 
-plt.figure()
+fig = plt.figure(figsize=(8, 5))
 shap.summary_plot(shap_values_rf_arr, X_df_raw.rename(columns=FEATURE_MAP), plot_type="dot",
                    feature_names=FEATURE_NAMES_EN, show=False)
 plt.title("SHAP Beeswarm \u2014 Random Forest")
+cb = plt.gcf().axes[-1]
+cb.set_ylabel("Feature value (low \u2192 high)", fontsize=10, labelpad=6)
 plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, "fig_shap_beeswarm_RF.png"), dpi=300, facecolor='white')
 plt.close()

@@ -1,0 +1,80 @@
+{
+  "proyecto": "RNA suelo-cemento - prediccion Y1 (resistencia) y Y2 (Durham)",
+  "dataset": "v7 (verificado + trazabilidad)",
+  "entradas": [
+    {
+      "codigo": "X1",
+      "descripcion": "Grava (% ret. N4)",
+      "rango_entrenamiento": [
+        6.96,
+        77.0
+      ]
+    },
+    {
+      "codigo": "X3",
+      "descripcion": "Finos (% pasa N200)",
+      "rango_entrenamiento": [
+        1.7,
+        46.65
+      ]
+    },
+    {
+      "codigo": "X4",
+      "descripcion": "Limite Liquido LL",
+      "rango_entrenamiento": [
+        0.0,
+        46.0
+      ]
+    },
+    {
+      "codigo": "X6",
+      "descripcion": "Indice Plastico IP",
+      "rango_entrenamiento": [
+        0.0,
+        17.0
+      ]
+    },
+    {
+      "codigo": "X7",
+      "descripcion": "Optimo Cont. Humedad OCH (%)",
+      "rango_entrenamiento": [
+        4.0,
+        16.82
+      ]
+    },
+    {
+      "codigo": "X8",
+      "descripcion": "MDS (g/cm3)",
+      "rango_entrenamiento": [
+        1.759,
+        2.231
+      ]
+    },
+    {
+      "codigo": "X9",
+      "descripcion": "Cemento (%)",
+      "rango_entrenamiento": [
+        0.5,
+        12.0
+      ]
+    }
+  ],
+  "salidas": {
+    "Y1_MPa": {
+      "descripcion": "Resistencia a compresion simple (MPa)",
+      "algoritmo": "Regresion Lineal",
+      "R2_LOGO": 0.467,
+      "RMSE": 0.8363
+    },
+    "Y2_Durham": {
+      "descripcion": "Perdida de peso Durham (%). Menor = mas durable",
+      "algoritmo": "Ridge (alpha=10)",
+      "exigencia_normativa": "NO es un umbral unico. La perdida Durham maxima admisible depende del grupo AASHTO del suelo (MTC/PCA): A-1/A-2-4/A-2-5/A-3 (granular) <=14%; A-2-6/A-2-7/A-4/A-5 (transicion) <=10%; A-6/A-7 (arcilla) <=7%. Ver predictor.clasificar_aashto().",
+      "exactitud_cumple_no_en_entrenamiento": 0.773,
+      "nota_exactitud": "calculada con umbral 14% porque TODAS las filas de entrenamiento con Y2 son granulares (finos <=16.9%); no valida para suelos finos.",
+      "R2_LOGO": -0.1779
+    }
+  },
+  "cobertura_por_tipo_de_suelo": "El dataset de entrenamiento es predominantemente GRANULAR: solo 1 de 23 suelos (USIL Mazamari C-5) tiene finos >35% (borde de A-6/A-7). El modelo es aplicable con confianza a suelos granulares (A-1 a A-3). Para suelos de transicion o finos (A-4 a A-7) la prediccion es referencial: la norma MTC permite estabilizar con cemento cualquier tipo de suelo (con mayor exigencia de cemento y durabilidad para las arcillas), pero este modelo no tiene suficiente evidencia empirica en ese rango todavia.",
+  "advertencia": "R2_LOGO es la capacidad real para un suelo NUEVO. Para completar una dosis faltante dentro del rango 1-12% de un suelo ya caracterizado por sus propiedades (X1,X3,X4,X6,X7,X8), el mismo modelo es mas exacto (LODO por propiedades, R2=0.64) -- NO usa la identidad del suelo ni dosis previas reales ya ensayadas de ese suelo especifico, solo interpola dentro del rango de propiedades fisicas ya cubierto por el dataset de entrenamiento. Validar la entrada contra 'rango_entrenamiento': fuera de rango = extrapolacion no confiable. predictor.predecir() ya aplica estos avisos automaticamente."
+}

@@ -1,0 +1,85 @@
+﻿Fuente;Suelo;Departamento;X1_Grava;X2_Arena;X3_Finos;X4_LL;X5_LP;X6_IP;X7_OCH;X8_MDS;X9_Cemento;X10_CBR;Y1_MPa;Y2_Durham;Verificado;Trazabilidad
+HOL;Cusco KM4+250;Cusco;64;26.7;9.3;28;20;8;8;2.159;2;30.8;1.657;;SI;laboratorio-certificado
+HOL;Cusco KM4+250;Cusco;64;26.7;9.3;28;20;8;8;2.159;2.5;30.8;1.824;;SI;laboratorio-certificado
+HOL;Cusco KM4+250;Cusco;64;26.7;9.3;28;20;8;8;2.159;3;30.8;2.03;;SI;laboratorio-certificado
+HOL;Cusco KM4+250;Cusco;64;26.7;9.3;28;20;8;8;2.159;3.2;30.8;2.11;9.5;SI;laboratorio-certificado
+HOL;Cusco KM7+750;Cusco;62;31.7;6.3;30;23;7;10.3;2.11;2;25.2;1.481;;SI;laboratorio-certificado
+HOL;Cusco KM7+750;Cusco;62;31.7;6.3;30;23;7;10.3;2.11;2.5;25.2;1.667;;SI;laboratorio-certificado
+HOL;Cusco KM7+750;Cusco;62;31.7;6.3;30;23;7;10.3;2.11;3;25.2;1.824;;SI;laboratorio-certificado
+HOL;Cusco KM7+750;Cusco;62;31.7;6.3;30;23;7;10.3;2.11;3.5;25.2;1.97;10.2;SI;laboratorio-certificado
+HOB;Cajón Huayco;Apurímac;60.5;35;4.5;0;0;0;5.5;2.21;1;75.7;0.667;;SI;laboratorio-certificado
+HOB;Cajón Huayco;Apurímac;60.5;35;4.5;0;0;0;5.5;2.21;2;75.7;2.04;;SI;laboratorio-certificado
+HOB;Cajón Huayco;Apurímac;60.5;35;4.5;0;0;0;5.5;2.21;2.2;75.7;2.21;8.2;SI;laboratorio-certificado
+HOB;Cajón Huayco;Apurímac;60.5;35;4.5;0;0;0;5.5;2.21;3;75.7;2.84;;SI;laboratorio-certificado
+HOB;Cajón Huayco;Apurímac;60.5;35;4.5;0;0;0;5.5;2.21;4;75.7;4.31;;SI;laboratorio-certificado
+HOB;Sallar;Apurímac;59.1;36.1;4.8;24;17;7;8;2.225;1;75.3;0.96;;SI;laboratorio-certificado
+HOB;Sallar;Apurímac;59.1;36.1;4.8;24;17;7;8;2.225;2;75.3;1.36;;SI;laboratorio-certificado
+HOB;Sallar;Apurímac;59.1;36.1;4.8;24;17;7;8;2.225;2.5;75.3;2.21;8.2;SI;laboratorio-certificado
+HOB;Sallar;Apurímac;59.1;36.1;4.8;24;17;7;8;2.225;3;75.3;2.34;;SI;laboratorio-certificado
+HOB;Sallar;Apurímac;59.1;36.1;4.8;24;17;7;8;2.225;4;75.3;2.96;;SI;laboratorio-certificado
+HOB;Wiracocha Pampa;Apurímac;42.5;50.6;6.9;25;18;7;6.8;2.229;1;72.8;0.78;;SI;laboratorio-certificado
+HOB;Wiracocha Pampa;Apurímac;42.5;50.6;6.9;25;18;7;6.8;2.229;2;72.8;1.68;;SI;laboratorio-certificado
+HOB;Wiracocha Pampa;Apurímac;42.5;50.6;6.9;25;18;7;6.8;2.229;2.5;72.8;2.12;8.9;SI;laboratorio-certificado
+HOB;Wiracocha Pampa;Apurímac;42.5;50.6;6.9;25;18;7;6.8;2.229;3;72.8;2.34;;SI;laboratorio-certificado
+HOB;Wiracocha Pampa;Apurímac;42.5;50.6;6.9;25;18;7;6.8;2.229;4;72.8;3.31;;SI;laboratorio-certificado
+G@S;Silco;Apurímac;71;21;8;21;19;2;6.8;2.115;2;88;0.46;;SI;laboratorio-certificado
+G@S;Silco;Apurímac;71;21;8;21;19;2;6.8;2.115;4;88;1.13;;SI;laboratorio-certificado
+G@S;Silco;Apurímac;71;21;8;21;19;2;6.8;2.115;6;88;1.86;;SI;laboratorio-certificado
+G@S;Silco;Apurímac;71;21;8;21;19;2;6.8;2.115;6.5;88;1.99;;SI;laboratorio-certificado
+G@S;Silco;Apurímac;71;21;8;21;19;2;6.8;2.115;8;88;2.4;;SI;laboratorio-certificado
+G@S;Ccescha;Apurímac;52;30;18;25;20;5;7.7;2.137;2;44;1.05;;SI;laboratorio-certificado
+G@S;Ccescha;Apurímac;52;30;18;25;20;5;7.7;2.137;4;44;1.37;;SI;laboratorio-certificado
+G@S;Ccescha;Apurímac;52;30;18;25;20;5;7.7;2.137;6;44;1.81;;SI;laboratorio-certificado
+G@S;Ccescha;Apurímac;52;30;18;25;20;5;7.7;2.137;6.35;44;1.93;;SI;laboratorio-certificado
+G@S;Ccescha;Apurímac;52;30;18;25;20;5;7.7;2.137;8;44;2.52;;SI;laboratorio-certificado
+EGEL;Talambo;La Libertad;43.54;37.35;19.11;23.23;20.73;2.5;6.7;2.22;1;59;0.718;;SI;laboratorio-certificado
+EGEL;Talambo;La Libertad;43.54;37.35;19.11;23.23;20.73;2.5;6.7;2.22;1.5;59;1.07;;SI;laboratorio-certificado
+EGEL;Talambo;La Libertad;43.54;37.35;19.11;23.23;20.73;2.5;6.7;2.22;2;59;1.574;;SI;laboratorio-certificado
+EGEL;Talambo;La Libertad;43.54;37.35;19.11;23.23;20.73;2.5;6.7;2.22;2.5;59;2.134;;SI;laboratorio-certificado
+EGEL;Talambo;La Libertad;43.54;37.35;19.11;23.23;20.73;2.5;6.7;2.22;2.7;59;2.16;;SI;laboratorio-certificado
+EGEL;Talambo;La Libertad;43.54;37.35;19.11;23.23;20.73;2.5;6.7;2.22;3;59;2.758;;SI;laboratorio-certificado
+UCV;Vallejo Cáceres;Puno;63.8;20.2;16;26;20.4;5.6;7.2;2.154;0.5;95.8;1.24;;SI;tesis-universitaria
+UCV;Vallejo Cáceres;Puno;63.8;20.2;16;26;20.4;5.6;7.2;2.154;1.5;95.8;1.67;;SI;tesis-universitaria
+UCV;Vallejo Cáceres;Puno;63.8;20.2;16;26;20.4;5.6;7.2;2.154;2.5;95.8;2.1;9.48;SI;tesis-universitaria
+UCV;Vallejo Cáceres;Puno;63.8;20.2;16;26;20.4;5.6;7.2;2.154;3.5;95.8;3.24;;SI;tesis-universitaria
+UCV;Vallejo Cáceres;Puno;63.8;20.2;16;26;20.4;5.6;7.2;2.154;4.5;95.8;3.48;;SI;tesis-universitaria
+UNJBG;Tacna C-1;Tacna;58.8;37.5;3.7;0;0;0;7.1;2.059;1.5;75;0.9;;SI;tesis-universitaria
+UNJBG;Tacna C-1;Tacna;58.8;37.5;3.7;0;0;0;7.1;2.059;2.5;75;1.86;;SI;tesis-universitaria
+UNJBG;Tacna C-1;Tacna;58.8;37.5;3.7;0;0;0;7.1;2.059;2.62;75;1.97;;SI;tesis-universitaria
+UNJBG;Tacna C-1;Tacna;58.8;37.5;3.7;0;0;0;7.1;2.059;3.5;75;2.75;;SI;tesis-universitaria
+UNJBG;Tacna C-1;Tacna;58.8;37.5;3.7;0;0;0;7.1;2.059;4.5;75;3.64;;SI;tesis-universitaria
+UNJBG;Tacna C-1;Tacna;58.8;37.5;3.7;0;0;0;7.1;2.059;2.25;75;;17.93;SI;tesis-universitaria
+UNJBG;Tacna C-1;Tacna;58.8;37.5;3.7;0;0;0;7.1;2.059;2.55;75;;14.77;SI;tesis-universitaria
+UNJBG;Tacna C-1;Tacna;58.8;37.5;3.7;0;0;0;7.1;2.059;2.85;75;;11.43;SI;tesis-universitaria
+UNJBG;Tacna C-2;Tacna;40;48.3;11.7;21;17;4;8.5;2.072;0.5;55;0.48;;SI;tesis-universitaria
+UNJBG;Tacna C-2;Tacna;40;48.3;11.7;21;17;4;8.5;2.072;1.5;55;1.3;;SI;tesis-universitaria
+UNJBG;Tacna C-2;Tacna;40;48.3;11.7;21;17;4;8.5;2.072;2.23;55;1.99;;SI;tesis-universitaria
+UNJBG;Tacna C-2;Tacna;40;48.3;11.7;21;17;4;8.5;2.072;2.5;55;2.25;;SI;tesis-universitaria
+UNJBG;Tacna C-2;Tacna;40;48.3;11.7;21;17;4;8.5;2.072;3.5;55;3.09;;SI;tesis-universitaria
+UNJBG;Tacna C-2;Tacna;40;48.3;11.7;21;17;4;8.5;2.072;1.85;55;;17.2;SI;tesis-universitaria
+UNJBG;Tacna C-2;Tacna;40;48.3;11.7;21;17;4;8.5;2.072;2.15;55;;14.7;SI;tesis-universitaria
+UNJBG;Tacna C-2;Tacna;40;48.3;11.7;21;17;4;8.5;2.072;2.5;55;;12.4;SI;tesis-universitaria
+UDEP;UDEP San Pancho;Piura;23.4;73.6;3;0;0;0;9;2.167;3;80;1.11;;SI;tesis-universitaria
+UDEP;UDEP San Pancho;Piura;23.4;73.6;3;0;0;0;9;2.167;4;80;1.65;;SI;tesis-universitaria
+UDEP;UDEP San Pancho;Piura;23.4;73.6;3;0;0;0;9;2.167;4.6;80;2.06;;SI;tesis-universitaria
+UDEP;UDEP San Pancho;Piura;23.4;73.6;3;0;0;0;9;2.167;5;80;2.34;;SI;tesis-universitaria
+USIL;USIL Mazamari C-5;Junín;6.96;46.39;46.65;46;29;17;16.82;1.759;3;12;3.25;;SI;tesis-universitaria
+USIL;USIL Mazamari C-5;Junín;6.96;46.39;46.65;46;29;17;16.82;1.759;6;12;5.69;;SI;tesis-universitaria
+USIL;USIL Mazamari C-5;Junín;6.96;46.39;46.65;46;29;17;16.82;1.759;9;12;6.26;;SI;tesis-universitaria
+USIL;USIL Mazamari C-5;Junín;6.96;46.39;46.65;46;29;17;16.82;1.759;12;12;7.23;;SI;tesis-universitaria
+Provias/MTC;Concacha;Apurímac;77;19;4;37;28;9;4;2.04;3.8;65;2.11;8.5;SI;Provias/MTC-auditado
+Provias/MTC;Pillichco;Apurímac;69;24;7;0;0;0;6.3;2.03;4;75;2.05;9;SI;Provias/MTC-auditado
+Provias/MTC;Quisapata;Apurímac;74;22;4;26;23;3;4.1;2.07;6;70;2.1;7.5;SI;Provias/MTC-auditado
+Provias/MTC;Trancapata;Apurímac;57;32;11;27;20;7;6.8;2.12;3.6;55;1.95;10.2;SI;Provias/MTC-auditado
+JCB;Ancash KM440;Ancash;50;40.16;9.84;0;0;0;7;2.069;2.5;70;2.02;;PARCIAL;Provias/MTC-auditado
+INGYTEC;San Martin (cantera);San Martín;67.6;30.7;1.7;0;0;0;5.71;2.231;2;99.6;1.01;;SI;Provias/MTC-auditado
+INGYTEC;San Martin (cantera);San Martín;67.6;30.7;1.7;0;0;0;5.71;2.231;2.5;99.6;1.38;;SI;Provias/MTC-auditado
+INGYTEC;San Martin (cantera);San Martín;67.6;30.7;1.7;0;0;0;5.71;2.231;3;99.6;1.87;;SI;Provias/MTC-auditado
+Construsuelos;Colombia Zofia;Atlantico (Colombia);55.14;36.04;8.82;16.44;12.52;3.91;9;2.173;3;;1.06;11.15;SI;laboratorio-certificado
+Construsuelos;Colombia Zofia;Atlantico (Colombia);55.14;36.04;8.82;16.44;12.52;3.91;9;2.173;5;;1.89;7.9;SI;laboratorio-certificado
+Construsuelos;Colombia Zofia;Atlantico (Colombia);55.14;36.04;8.82;16.44;12.52;3.91;9;2.173;7;;2.15;3.72;SI;laboratorio-certificado
+Consorcio Angasmayo;Rosaspata+Millpo;Ayacucho;40.94;46.37;12.69;28.05;22.15;5.9;8.02;2.059;1;;1.12;9.7;SI;Provias/MTC-auditado
+Consorcio Angasmayo;Rosaspata+Millpo;Ayacucho;40.94;46.37;12.69;28.05;22.15;5.9;8.02;2.059;3;;2.34;5;SI;Provias/MTC-auditado
+Consorcio Angasmayo;Rosaspata+Millpo;Ayacucho;40.94;46.37;12.69;28.05;22.15;5.9;8.02;2.059;5;;3.7;2.7;SI;Provias/MTC-auditado
+UPeU;UPeU SubBase;Puno;58.33;34.34;7.33;0;0;0;6.4;2.12;5;41.85;1.74;;SI;tesis-universitaria
+UPeU;UPeU Base;Puno;68.81;25.34;5.85;0;0;0;6.3;2.12;5;86;1.9;;SI;tesis-universitaria
